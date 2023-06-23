@@ -1,3 +1,5 @@
+The work belong to ARC Research Hub Driving Farming Productivity and Disease Prevention, Griffith University. 
+
 # Automated Sugarcane Billet Detection and Quality Control System - User Manual
 ## Overview
 The automated sugarcane billet detection system was designed to allow sugarcane factory staff to easily monitor the quality control of each load of sugarcane billets delivered from farmers. The system can connect to a camera that monitors the billets transmitted from a conveyor. The system has two stages of detection. Firstly, it will detect each single billet on the conveyor and calculate the average length of the billets for each load. The individual billets will be cropped and saved as the input source for the second stage of detection. Users can choose which quality control they want to assess, such as the quality assessment of good or bad billets or check the number of eyes and nodes of each billet for plater.
@@ -29,7 +31,9 @@ This marks the end of the first stage detection, which can be used independently
 ### Second Stage Detection 
 Continuing from the previous step, to perform the second stage detection for quality control assessment, make sure to check the "Save crops" option. Otherwise, there will be no input source for the second stage detection.
 6.	Check "Crop detect": This option indicates the system to perform the second stage detection automatically after the first stage is completed. Make sure to enable this option to obtain the quality control assessment.
-7.	Selection of “Quality Assess” and/or “Eyes&Nodes”: Any or both of these two options need to be checked for system to perform the second stage detection. 
+
+7.	Selection of “Quality Assess” and/or “Eyes&Nodes”: Any or both of these two options need to be checked for system to perform the second stage detection.
+    
 8.	Selection of “Save labels” and “Save images” are optional. 
 
 
