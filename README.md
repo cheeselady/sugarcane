@@ -30,6 +30,7 @@ This marks the end of the first stage detection, which can be used independently
 
 ### Second Stage Detection 
 Continuing from the previous step, to perform the second stage detection for quality control assessment, make sure to check the "Save crops" option. Otherwise, there will be no input source for the second stage detection.
+
 6.	Check "Crop detect": This option indicates the system to perform the second stage detection automatically after the first stage is completed. Make sure to enable this option to obtain the quality control assessment.
 
 7.	Selection of “Quality Assess” and/or “Eyes&Nodes”: Any or both of these two options need to be checked for system to perform the second stage detection.
